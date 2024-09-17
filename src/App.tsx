@@ -1,5 +1,5 @@
-import { UseCallBackDemo, UseContextDemo } from "./reactHooks";
-
+import { UseCallBackDemo, UseStateDemo,UsePropsDemo } from "./reactHooks";
+import Enum from "./typescript/enum"
 function App() {
 
 
@@ -7,8 +7,11 @@ function App() {
         <>
             <UseCallBackDemo />
             {/* <UseContextDemo /> */}
+            <Enum/>
+            <UseStateDemo/>
+            <UsePropsDemo/>
         </>
     )
 }
 
-export default App
+export default App;

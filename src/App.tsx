@@ -1,20 +1,26 @@
-import {  UseDebugValue} from "./reactHooks";
-import {  UseID} from "./reactHooks";
+
+import { UseCallBackDemo, UseContextDemo, UseMemo } from "./reactHooks";
+import UseReducerDemo from "./reactHooks/useReducer/DemoLayout";
+
+
 
 function App() {
 
 
     return (
-        <>  
-            <UseDebugValue />
-            <UseID />
-            <UseID />
-            <UseID />
-            
-            
-          
+
+        <>
+            <UseCallBackDemo />
+            <UseContextDemo/>
+            <UseMemo/>
+            <UseReducerDemo/>
+            {/* <UseContextDemo /> */}
+            <Enum/>
+            <UseStateDemo/>
+            <UsePropsDemo/>
+
         </>
     )
 }
 
-export default App
+export default App;

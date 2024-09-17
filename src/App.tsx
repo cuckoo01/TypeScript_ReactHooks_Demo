@@ -1,12 +1,18 @@
-import { UseCallBackDemo, UseContextDemo } from "./reactHooks";
+import {  UseDebugValue} from "./reactHooks";
+import {  UseID} from "./reactHooks";
 
 function App() {
 
 
     return (
-        <>
-            <UseCallBackDemo />
-            {/* <UseContextDemo /> */}
+        <>  
+            <UseDebugValue />
+            <UseID />
+            <UseID />
+            <UseID />
+            
+            
+          
         </>
     )
 }

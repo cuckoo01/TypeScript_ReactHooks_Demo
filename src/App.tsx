@@ -1,4 +1,4 @@
-import { UseCallBackDemo, UseContextDemo } from "./reactHooks";
+import { UseCallBackDemo, UseContextDemo, UseMemo } from "./reactHooks";
 
 function App() {
 
@@ -6,6 +6,8 @@ function App() {
     return (
         <>
             <UseCallBackDemo />
+            <UseContextDemo/>
+            <UseMemo/>
             {/* <UseContextDemo /> */}
         </>
     )

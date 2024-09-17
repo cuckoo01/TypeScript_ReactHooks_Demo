@@ -1,3 +1,4 @@
+
 // Name: Nguyen Thi Bich Duyen
 
 
@@ -48,8 +49,6 @@ function add(a: number, b: number): number {
 function greet(name: string): string {
     return `Hello, ${name}`;
 }
-
-
 
 
 

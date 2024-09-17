@@ -1,4 +1,5 @@
 import { UseCallBackDemo, UseContextDemo, UseMemo } from "./reactHooks";
+import UseReducerDemo from "./reactHooks/useReducer/DemoLayout";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
             <UseCallBackDemo />
             <UseContextDemo/>
             <UseMemo/>
+            <UseReducerDemo/>
             {/* <UseContextDemo /> */}
         </>
     )

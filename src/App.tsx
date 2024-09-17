@@ -1,11 +1,14 @@
+
 import { UseCallBackDemo, UseContextDemo, UseMemo } from "./reactHooks";
 import UseReducerDemo from "./reactHooks/useReducer/DemoLayout";
+
 
 
 function App() {
 
 
     return (
+
         <>
             <UseCallBackDemo />
             <UseContextDemo/>
@@ -15,6 +18,7 @@ function App() {
             <Enum/>
             <UseStateDemo/>
             <UsePropsDemo/>
+
         </>
     )
 }

@@ -1,16 +1,16 @@
-import { UseCallBackDemo, UseContextDemo, UseMemo } from "./reactHooks";
+import { UseCallBackDemo, UseContextDemo, UseMemo, UseRef, UseImperativeHandle } from "./reactHooks";
 
 function App() {
-
-
     return (
         <>
             <UseCallBackDemo />
             <UseContextDemo/>
             <UseMemo/>
+            <UseRef/>
+            <UseImperativeHandle/>
             {/* <UseContextDemo /> */}
         </>
-    )
+    );
 }
 
-export default App
+export default App;

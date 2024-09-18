@@ -1,22 +1,22 @@
-import {
-  CombinedEffects,
-  Counter,
-  UseCallBackDemo,
-  UseContextDemo,
-  UseMemo,
-} from "./reactHooks";
+
+
+import { UseCallBackDemo, UseContextDemo, UseMemo, UseID } from "./reactHooks";
+import UseReducerDemo from "./reactHooks/useReducer/DemoLayout";
+
 
 function App() {
     return (
 
         <>
             <UseCallBackDemo />
-            <UseContextDemo/>
-            <UseMemo/>
             {/* <UseContextDemo /> */}
-            <Enum/>
-            <UseStateDemo/>
-            <UsePropsDemo/>
+            {/* <UseMemo /> */}
+            {/* <UseReducerDemo /> */}
+            {/* <UseContextDemo /> */}
+            {/* <UseID /> */}
+            {/* <Enum /> */}
+            {/* <UseStateDemo /> */}
+            {/* <UsePropsDemo /> */}
 
         </>
     );

@@ -3,18 +3,18 @@
 import React, { useCallback, useState } from 'react';
 
 function Usecallback() {
-  const [count, setCount] = useState(0);
+    const [count, setCount] = useState(0);
 
-  const increment = useCallback(() => {
-    setCount(c => c + 1);
-  }, []); // 
+    const increment = useCallback(() => {
+        setCount(c => c + 1);
+    }, []); // 
 
-  return (
-    <div>
-      Count: {count}
-      <button onClick={increment}>Increment</button>
-    </div>
-  );
+    return (
+        <div>
+            Count: {count}
+            <button onClick={increment}>Increment</button>
+        </div>
+    );
 }
 
 export default Usecallback;

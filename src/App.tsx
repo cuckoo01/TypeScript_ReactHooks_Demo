@@ -1,8 +1,12 @@
-import { UseCallBackDemo, UseContextDemo, UseMemo } from "./reactHooks";
+import {
+  CombinedEffects,
+  Counter,
+  UseCallBackDemo,
+  UseContextDemo,
+  UseMemo,
+} from "./reactHooks";
 
 function App() {
-
-
     return (
 
         <>
@@ -16,6 +20,7 @@ function App() {
 
         </>
     );
+
 }
 
 export default App;

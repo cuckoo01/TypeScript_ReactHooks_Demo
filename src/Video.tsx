@@ -1,6 +1,7 @@
 
 import React, { forwardRef, useRef, useImperativeHandle } from 'react';
 
+
 const Video = forwardRef((props, ref) => {
     const videoRef = useRef(null);
 
@@ -18,8 +19,8 @@ const Video = forwardRef((props, ref) => {
     }));
 
     return (
-        <video ref={videoRef} width="600" controls>
-            <source src="/src/assets/videos/video-1.mp4" type="video/mp4" />
+        <video ref={videoRef} width="600" height="300" controls>
+            <source src='https://www.w3schools.com/html/mov_bbb.mp4' type="video/mp4" />
         </video>
     );
 });

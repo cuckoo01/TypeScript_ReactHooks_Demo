@@ -1,5 +1,5 @@
 
-import { UseCallBackDemo, UseContextDemo, UseMemo } from "./reactHooks";
+import { UseCallBackDemo, UseContextDemo, UseMemo, UseID } from "./reactHooks";
 import UseReducerDemo from "./reactHooks/useReducer/DemoLayout";
 
 
@@ -10,13 +10,14 @@ function App() {
 
         <>
             <UseCallBackDemo />
-            <UseContextDemo/>
-            <UseMemo/>
-            <UseReducerDemo/>
             {/* <UseContextDemo /> */}
-            <Enum/>
-            <UseStateDemo/>
-            <UsePropsDemo/>
+            {/* <UseMemo /> */}
+            {/* <UseReducerDemo /> */}
+            {/* <UseContextDemo /> */}
+            {/* <UseID /> */}
+            {/* <Enum /> */}
+            {/* <UseStateDemo /> */}
+            {/* <UsePropsDemo /> */}
 
         </>
     )

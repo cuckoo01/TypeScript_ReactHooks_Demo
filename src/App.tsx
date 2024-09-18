@@ -7,16 +7,20 @@ import {
 } from "./reactHooks";
 
 function App() {
-  return (
-    <>
-      <UseCallBackDemo />
-      <UseContextDemo />
-      <UseMemo />
-      <Counter />
-      <CombinedEffects />
-      {/* <UseContextDemo /> */}
-    </>
-  );
+    return (
+
+        <>
+            <UseCallBackDemo />
+            <UseContextDemo/>
+            <UseMemo/>
+            {/* <UseContextDemo /> */}
+            <Enum/>
+            <UseStateDemo/>
+            <UsePropsDemo/>
+
+        </>
+    );
+
 }
 
 export default App;
